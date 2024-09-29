@@ -1,4 +1,8 @@
 /* shared styling */
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .body{
     font-weight: 800;
     font-family: "Open Sans", system-ui;
@@ -48,6 +52,7 @@ nav ul li a{
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    box-shadow: 2px 2px 5px 2px rgb(143, 81, 81);
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -77,6 +82,37 @@ nav ul li a{
 .banner-image{
     width: 500px;
 } 
-
 /* header styling end */
 
+/* main styling start */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+    border: 2px solid;
+}
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+/* about section styling start */
+.about{
+    border-radius: 5px;
+    padding: 60px 100px;
+    margin:  100px 40px;
+    text-align: justify;
+    background-color: #FFF8F3;
+}
+
+.about-info-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    margin-bottom: 10px;
+}
+/* about section styling end */
