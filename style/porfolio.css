@@ -16,7 +16,8 @@
     font-size: 20px;
     font-weight: 600;
     color: beige;
-    padding: 20px 30px;
+    padding: 10px 20px;
+    margin: 20px 0px;
     border: 0;
     border-radius: 5px;
     background-color: #FD6E0A;
@@ -88,7 +89,10 @@ nav ul li a{
 main{
     max-width: 1140px;
     margin: 0px auto;
-    border: 2px solid;
+    /* border: 2px solid; */
+}
+.section{
+    gap: 100px;
 }
 .section-title{
     text-align: center;
@@ -98,10 +102,11 @@ main{
 /* about section styling start */
 .about{
     border-radius: 5px;
-    padding: 60px 100px;
+    padding: 60px 110px;
     margin:  100px 40px;
     text-align: justify;
     background-color: #FFF8F3;
+    /* border: 2px solid; */
 }
 
 .about-info-container{
@@ -116,3 +121,76 @@ main{
     margin-bottom: 10px;
 }
 /* about section styling end */
+
+/* what i do styling start */
+.what-i-do{
+    /* border: 2px solid; */
+    max-width: 1140px;
+    padding: 60px 100px;
+    margin:  100px 40px;
+}
+.what-i-do .section-desc{
+    padding: 20px 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.skill-info-container{
+    display: flex;
+    gap: 24px;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    padding: 0px 10px;
+}
+.skill-info{
+    background-color: rgba(255, 228, 196, 0.474);
+    padding: 20px;
+    border-radius: 5px;
+    /* margin-right: 20px; */
+    box-shadow: 0px 0px 5px 3px rgba(165, 42, 42, 0.315);
+}
+.skill-info-title{
+    margin: 10px 0px;
+}
+.skill-desc{
+    text-align: justify;
+    margin: 20px 10px 5px 0px;
+}
+/* resume summary */
+.resume-summary{
+    max-width: 1140px;
+    /* border: 2px solid; */
+    margin:  100px 40px;
+    padding: 60px 100px;
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    background-color: rgba(255, 228, 196, 0.323);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px rgba(165, 42, 42, 0.178);
+    /* border: 2px solid; */
+    padding: 20px;
+}
+.resume-summary-button{
+    text-align: center;
+    margin: 20px 0px;
+}
+.resume-col-title{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.resume-column{
+    gap: 70px;
+}
+.resume-item{
+    margin: 20px 0px;
+}
+.resume-item-title{
+    margin: 10px 0px;
+    font-size: 25px;
+}
+.resume-institute-info{
+    margin: 10px 0px;
+    font-weight: 600;
+}
