@@ -50,19 +50,15 @@ nav ul li a{
 /* header styling start */
 .header{
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-size: auto,contain;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
     box-shadow: 2px 2px 5px 2px rgb(143, 81, 81);
     
     /* padding-left: 15px; */
 }
 .banner{
-    background-image: url('../images/developer.png');
-    background-size: 80px;
-    background-repeat: no-repeat;
-    background-position: left;
-    margin-left: 15px; 
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
@@ -211,7 +207,7 @@ footer{
     display: flex;
     padding: 60px 230px;
     margin-top: 0px;
-    gap: 180px;
+    gap: 80px;
     /* justify-content: space-between; */
 }
 footer .section-title{
@@ -223,7 +219,7 @@ footer .section-title{
 .footer-column{
     width: 50%;
     align-items: center;
-    padding: 20px 40px 20px;
+    padding: 20px 50px 20px 10px;
     /* border: 2px solid; */
     box-shadow: 0px 0px 5px 5px rgba(165, 42, 42, 0.282);
 }
