@@ -160,6 +160,7 @@ main{
     max-width: 1140px;
     /* border: 2px solid; */
     margin:  100px 40px;
+    margin-bottom: 0px;
     padding: 60px 100px;
 }
 .resume-container{
@@ -193,4 +194,59 @@ main{
 .resume-institute-info{
     margin: 10px 0px;
     font-weight: 600;
+}
+/* footer styling */
+footer{
+    background-color: rgb(255, 228, 196);
+    display: flex;
+    padding: 60px 230px;
+    margin-top: 0px;
+    gap: 180px;
+    /* justify-content: space-between; */
+}
+footer .section-title{
+    text-align: left;
+}
+/* #contact{
+    margin-right: 30px;
+} */
+.footer-column{
+    width: 50%;
+    align-items: center;
+    padding: 20px 40px 20px;
+    /* border: 2px solid; */
+    box-shadow: 0px 0px 5px 5px rgba(165, 42, 42, 0.282);
+}
+.social-media-links{
+    text-align: left;
+    margin: 10px 0px;
+    /* margin-right: 30px; */
+}
+.social-media-links a{
+    
+    margin-right: 30px;
+}
+.footer-column form label{
+    display: block;
+    padding: 10px 0px;
+    /* width: 100%; */
+    
+}
+input,textarea{
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+.footer-button{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    color: beige;
+    padding: 10px;
+    /* margin: 10px 0px; */
+    border: 0;
+    border-radius: 5px;
+    /* text-align: center; */
+    background-color: #FD6E0A;
 }
