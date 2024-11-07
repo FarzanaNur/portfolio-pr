@@ -131,7 +131,7 @@ main{
 
 /* what i do styling start */
 .what-i-do{
-    border: 2px solid;
+    /* border: 2px solid; */
     max-width: 1140px;
     padding: 60px 100px;
     margin:  100px 40px;
@@ -264,8 +264,10 @@ input,textarea{
 /* small devices */
 @media screen and (max-width:576px) {
     .section-title{
-        font-size: 3em;
+        font-size: 2.5em;
     }
+
+    /* what i do section responsive */
     .what-i-do{
         /* border: 2px solid;
         max-width: 1140px; */
@@ -289,5 +291,21 @@ input,textarea{
     }
     .skill-desc{
         font-size: 1.2em;
+    }
+    /* resume section responsive */
+    .resume-summary{
+        /* border: 2px solid; */
+        padding: 10px;
+        margin:  100px 10px;
+    }
+    .resume-item-title{
+        font-size: 1.5em;
+    }
+    .resume-container{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+        gap: 30px;
+        
     }
 }
