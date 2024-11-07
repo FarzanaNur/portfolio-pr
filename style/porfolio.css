@@ -24,6 +24,7 @@
 }
 /* nav styling start */
 nav{
+    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -130,7 +131,7 @@ main{
 
 /* what i do styling start */
 .what-i-do{
-    /* border: 2px solid; */
+    border: 2px solid;
     max-width: 1140px;
     padding: 60px 100px;
     margin:  100px 40px;
@@ -262,5 +263,31 @@ input,textarea{
 }
 /* small devices */
 @media screen and (max-width:576px) {
-    
+    .section-title{
+        font-size: 3em;
+    }
+    .what-i-do{
+        /* border: 2px solid;
+        max-width: 1140px; */
+        padding: 10px 0px;
+        margin:  100px 10px;
+    }
+    .what-i-do .section-desc{
+        padding: 10px 20px;
+        font-size: 1.2em;
+        text-align: justify;
+    }
+    .skill-info-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+    .skill-info-title{
+        font-size: 1.7em;
+        margin: 10px 0px;
+    }
+    .skill-desc{
+        font-size: 1.2em;
+    }
 }
