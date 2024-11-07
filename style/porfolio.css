@@ -266,13 +266,24 @@ input,textarea{
     .section-title{
         font-size: 2.5em;
     }
-
+    /* about section styling start */
+    .about{
+        border-radius: 5px;
+        padding: 30px 10px;
+        margin:  50px 10px;
+        /* border: 2px solid red; */
+    }
+    .about-info-container{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+    }
     /* what i do section responsive */
     .what-i-do{
         /* border: 2px solid;
         max-width: 1140px; */
         padding: 10px 0px;
-        margin:  100px 10px;
+        margin:  30px 10px;
     }
     .what-i-do .section-desc{
         padding: 10px 20px;
@@ -296,7 +307,7 @@ input,textarea{
     .resume-summary{
         /* border: 2px solid; */
         padding: 10px;
-        margin:  100px 10px;
+        margin:  30px 10px;
     }
     .resume-item-title{
         font-size: 1.5em;
