@@ -256,3 +256,11 @@ input,textarea{
     /* text-align: center; */
     background-color: #FD6E0A;
 }
+/* responsive */
+.hide{
+    display: none;
+}
+/* small devices */
+@media screen and (max-width:576px) {
+    
+}
