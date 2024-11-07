@@ -331,8 +331,6 @@ input,textarea{
     }
     /* what i do section responsive */
     .what-i-do{
-        /* border: 2px solid;
-        max-width: 1140px; */
         padding: 10px;
         margin:  30px 10px;
     }
@@ -393,4 +391,56 @@ input,textarea{
         width: 88%;
     }
     
+}
+/* medium devices */
+@media screen and (min-width:576px) and (max-width:990px) {
+    /* main section responsive */
+    .section-title{
+        font-size: 2.5em;
+    }
+    /* about section styling start */
+    .about{
+        padding: 60px;
+    }
+    .about .section-desc,.about-info-container{
+        font-size: 1.1em;
+    }
+    /* what i do section responsive */
+    .what-i-do{
+        padding: 10px;
+        margin:  30px 10px;
+    }
+    .what-i-do .section-desc{
+        padding: 10px 20px;
+        font-size: 1.2em;
+        text-align: justify;
+    }
+    .skill-info-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+    .skill-info-title{
+        font-size: 1.7em;
+        margin: 10px 0px;
+    }
+    .skill-desc{
+        font-size: 1.2em;
+    }
+    /* resume section responsive */
+    .resume-summary{
+        padding: 10px;
+        margin:  30px 10px;
+    }
+    .resume-item-title{
+        font-size: 1.5em;
+    }
+    .resume-container{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+        gap: 30px;  
+    }
+
 }
