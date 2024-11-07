@@ -22,9 +22,19 @@
     border-radius: 5px;
     background-color: #FD6E0A;
 }
+/* header styling start */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-size: auto,contain;
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+    box-shadow: 2px 2px 5px 2px rgb(143, 81, 81);
+    /* padding-left: 15px; */
+}
 /* nav styling start */
 nav{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,17 +58,7 @@ nav ul li a{
     text-decoration: none;
 }
 /* nav styling end */
-/* header styling start */
-.header{
-    background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png'),url('../images/developer.png');
-    background-size: auto,contain;
-    background-repeat: no-repeat;
-    background-position: bottom right,top left;
-    box-shadow: 2px 2px 5px 2px rgb(143, 81, 81);
-    
-    /* padding-left: 15px; */
-}
+/* banner styling start */
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -88,6 +88,7 @@ nav ul li a{
 .banner-image{
     width: 500px;
 } 
+/* banner styling end */
 /* header styling end */
 
 /* main styling start */
@@ -260,6 +261,59 @@ input,textarea{
 }
 /* small devices */
 @media screen and (max-width:576px) {
+    /* header styling start */
+    .header{
+        /* border: 2px solid #FD6E0A; */
+        background-size: auto,contain;
+        background-position: top left;      
+    }
+    /* nav responsive start */
+    nav{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        margin: 0px 0px 0px 60px;
+    }
+    nav ul li a{
+        font-size: 1.2em;
+    }
+    /* banner styling start */
+    .banner{
+        padding: 30px 30px 0px 150px;
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-greet{
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+    .banner-title{
+        margin-top: 3px;
+        margin-bottom: 4px;
+        font-size: 2em;
+    }
+    .banner-desc{
+        text-align: justify;
+    }
+    .banner-button{
+        padding: 0px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .banner-button button{
+        font-size: .8em;
+        padding: 10px 3px;
+        /* margin: 20px 0px; */
+        margin-right: 10px;
+    }
+    .banner-image{
+        width: 305px;
+    } 
+    /* banner styling end */
+    /* header styling end */
+
     .section-title{
         font-size: 2.5em;
     }
