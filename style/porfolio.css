@@ -442,5 +442,18 @@ input,textarea{
         column-gap: 20px;
         gap: 30px;  
     }
+    /* footer responsive */
+    footer{
+        padding: 60px 30px;
+        gap: 30px;
+    }
+    .footer-description{
+        font-size: 1.1em;
+        margin-top: 50px;
+    }
+    .social-media-links{
+        text-align: center;
+        margin-top: 50px;
+    }
 
 }
