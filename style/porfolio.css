@@ -109,13 +109,11 @@ main{
 .about{
     border-radius: 5px;
     padding: 60px 110px;
-    margin:  100px 40px;
-    
+    margin:  50px 40px;
     text-align: justify;
     background-color: #FFF8F3;
     /* border: 2px solid; */
 }
-
 .about-info-container{
     margin-top: 20px;
     display: flex;
@@ -134,7 +132,7 @@ main{
     /* border: 2px solid; */
     max-width: 1140px;
     padding: 60px 100px;
-    margin:  100px 40px;
+    margin:  50px 40px;
 }
 .what-i-do .section-desc{
     padding: 20px 60px;
@@ -166,8 +164,7 @@ main{
 .resume-summary{
     max-width: 1140px;
     /* border: 2px solid; */
-    margin:  100px 40px;
-    margin-bottom: 0px;
+    margin:  50px 40px 30px;
     padding: 60px 100px;
 }
 .resume-container{
